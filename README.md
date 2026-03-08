@@ -7,8 +7,8 @@ A clean, modular Python package for classifying crop types in small Austrian agr
 ## What's the point?
 
 The original research compared two kinds of features for crop classification:
-- **BTFM embeddings** — representations from a pre-trained Bio-Temporal Foundation Model (basically a ViT that's seen a lot of satellite imagery)
-- **Raw satellite bands** — Sentinel-2 optical bands and Sentinel-1 SAR (radar) bands, with optional vegetation indices
+- **BTFM embeddings** — representations from a pre-trained Barlow Twins Foundation Model (TESSERA)
+- *Raw satellite bands** — Sentinel-2 optical bands and Sentinel-1 SAR (radar) bands, with optional vegetation indices
 
 Fields are classified into either 7 or 17 crop types. The tricky part is that the fields are *small*, so there aren't many pixels per field — this is what makes it interesting and hard.
 
